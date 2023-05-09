@@ -1,0 +1,38 @@
+.checkout-product {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout-product-image {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.checkout-product-info {
+    padding-left: 20px;
+}
+
+.checkout-product-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.checkout-product-rating {
+    display: flex;
+}
+
+.checkout-product-info > button {
+    background: yellow;
+    border: 1px solid;
+    margin-top: 10px;
+    width: 100px;
+    color: #111;
+    cursor: pointer;
+    border-color: yellow brown goldenrod;
+}
+
+i {
+    vertical-align: middle;
+}
